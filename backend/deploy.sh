@@ -1,0 +1,1 @@
+cd "/Users/ipka23/ITMO/Информационные системы/lab1/backend" && ./gradlew war && ~/servers/wildfly-37.0.1.Final/bin/jboss-cli.sh --connect --command='deploy "/Users/ipka23/ITMO/Информационные системы/lab1/backend/build/libs/lab1.war" --force'
